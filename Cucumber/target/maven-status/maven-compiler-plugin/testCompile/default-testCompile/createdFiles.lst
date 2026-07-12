@@ -1,0 +1,15 @@
+ordering\CartSteps.class
+runners\OrderingTestRunner.class
+catalog\LoginSteps.class
+runners\E2ETestRunner.class
+runners\SmokeTestRunner.class
+runners\RegressionTestRunner.class
+accounting\opensourcedemoSteps.class
+accounting\HashMapComparison.class
+inventory\LogoutSteps.class
+runners\AccountingTestRunner.class
+runners\InventoryTestRunner.class
+inventory\ProfileSteps.class
+accounting\cakesStepDefinitions.class
+e2e\SearchSteps.class
+runners\CatalogTestRunner.class
