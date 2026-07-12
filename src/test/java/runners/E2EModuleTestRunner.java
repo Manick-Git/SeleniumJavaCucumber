@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 @CucumberOptions(
     features = "src/test/resources/features/e2e", 	// Path to your feature files
     glue = "e2e",	// Package name for step definitions
-    plugin = {"pretty","html:target/e2ereport.html"},
+    plugin = {"pretty","html:target/e2ereport.html","json:target/cucumber.json"},
     dryRun = false
 
 )

@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 @CucumberOptions(
     features = "src/test/resources/features/accounting", 	// Path to your feature files
     glue = {"accounting","hooks"},	// Package name for step definitions
-    plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:","pretty","html:target/accountingreport.html"},
+    plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:","pretty","html:target/accountingreport.html","json:target/cucumber.json"},
     dryRun = false
 )
 
