@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 @CucumberOptions(
     features = "src/test/resources/features", 	// Path to your feature files
     glue = {"accounting", "catalog","e2e","inventory","ordering"},	// Package name for step definitions
-    plugin = {"pretty","html:target/smokereport.html","json:target/cucumber.json"},
+    plugin = {"pretty","html:target/smokereport.html","json:target/smoke.json"},
     dryRun = false,
     monochrome = true,
     tags = "@Smoke"

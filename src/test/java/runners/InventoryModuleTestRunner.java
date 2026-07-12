@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 @CucumberOptions(
     features = "src/test/resources/features/inventory", 	// Path to your feature files
     glue = "inventory",	// Package name for step definitions
-    plugin = {"pretty","html:target/inventoryreport.html","json:target/cucumber.json"},
+    plugin = {"pretty","html:target/inventoryreport.html","json:target/inventory.json"},
     dryRun = false
 
 )

@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 @CucumberOptions(
     features = "src/test/resources/features/catalog", 	// Path to your feature files
     glue = "catalog",	// Package name for step definitions
-    plugin = {"pretty","html:target/catalogreport.html","json:target/cucumber.json"},
+    plugin = {"pretty","html:target/accountingreport.html","json:target/catalog.json"},
     dryRun = false
 
 )
