@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
     dryRun = false
 
 )
-public class OrderingTestRunner extends AbstractTestNGCucumberTests {
+public class OrderingModuleTestRunner extends AbstractTestNGCucumberTests {
 	
 
 	    public void runCucumber() {

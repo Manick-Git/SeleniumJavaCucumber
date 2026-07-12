@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 )
 
 
-public class AccountingTestRunner extends AbstractTestNGCucumberTests {
+public class AccountingModuleTestRunner extends AbstractTestNGCucumberTests {
 	
 
 	    public void runCucumber() {

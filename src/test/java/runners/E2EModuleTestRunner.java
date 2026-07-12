@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
     dryRun = false
 
 )
-public class E2ETestRunner extends AbstractTestNGCucumberTests {
+public class E2EModuleTestRunner extends AbstractTestNGCucumberTests {
 	
 
 	    public void runCucumber() {
